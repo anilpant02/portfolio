@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+nav {
+  text-align: center;
+  margin-top: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+nav ul nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 30px;
+}
+
+section#about p {
+  text-align: left;
+  margin-top: 20px;
+  transition: all 0.4s linear;
+}
+section#about h2:hover {
+  color: blue;
+}
+
+section#projects ul {
+  text-align: left;
+  margin-top: 20px;
+}
+section#projects h2:hover {
+  color: rgb(81, 255, 0);
+}
+
+section#contact form {
+  margin-top: 20px;
+}
+section#contact h2:hover {
+  color: rgb(255, 85, 0);
+}
+
+section#contact label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+section#contact input[type="text"],
+section#contact input[type="email"],
+section#contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+section#contact input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
